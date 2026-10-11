@@ -165,7 +165,7 @@ export const characters = [
     name: 'Iron Man',
     realName: 'Tony Stark',
     aliases: ['Hombre de Hierro'],
-    image: '/images/iron-man.jpg',
+    image: `${import.meta.env.BASE_URL}images/iron-man.jpg`,
     occupation: 'Inventor, empresario y superhéroe.',
     origin: 'Humano; sus capacidades de combate extraordinarias dependen principalmente de la tecnología que diseña.',
     summary:
@@ -251,7 +251,7 @@ export const characters = [
     name: 'Capitán América',
     realName: 'Steve Rogers',
     aliases: ['Capitán', 'Cap'],
-    image: '/images/capitan-america.jpg',
+    image: `${import.meta.env.BASE_URL}images/capitan-america.jpg`,
     occupation: 'Soldado y superhéroe.',
     origin: 'Humano mejorado mediante el suero del supersoldado en la historia clásica.',
     summary:
@@ -314,7 +314,7 @@ export const characters = [
     name: 'Thor',
     realName: 'Thor Odinson',
     aliases: ['Dios del Trueno'],
-    image: '/images/thor.jpg',
+    image: `${import.meta.env.BASE_URL}images/thor.jpg`,
     occupation: 'Príncipe y guerrero asgardiano; sus cargos cambian a lo largo de las historias.',
     origin: 'Asgardiano asociado al trueno. Su parentesco y origen se representan de manera distinta en cómics y MCU.',
     summary:
@@ -376,7 +376,7 @@ export const characters = [
     name: 'Hulk',
     realName: 'Bruce Banner',
     aliases: ['La Masa (nombre utilizado en algunas traducciones)'],
-    image: '/images/hulk.jpg',
+    image: `${import.meta.env.BASE_URL}images/hulk.jpg`,
     occupation: 'Científico; la especialidad de Banner depende de la continuidad.',
     origin: 'Bruce Banner queda expuesto a radiación gamma; el accidente y sus consecuencias cambian entre versiones.',
     summary:
@@ -440,7 +440,7 @@ export const characters = [
     name: 'Viuda Negra',
     realName: 'Natasha Romanoff',
     aliases: ['Black Widow', 'Natasha Romanova (nombre utilizado en algunas historias)'],
-    image: '/images/viuda-negra.jpg',
+    image: `${import.meta.env.BASE_URL}images/viuda-negra.jpg`,
     occupation: 'Espía, agente de inteligencia y combatiente.',
     origin: 'Humana entrenada en espionaje; sus antecedentes y formación se han reescrito en distintas continuidades.',
     summary:
@@ -500,7 +500,7 @@ export const characters = [
     name: 'Ojo de Halcón',
     realName: 'Clint Barton',
     aliases: ['Hawkeye', 'Ronin (identidad usada en una etapa de cómics)'],
-    image: '/images/ojo-de-halcon.jpg',
+    image: `${import.meta.env.BASE_URL}images/ojo-de-halcon.jpg`,
     occupation: 'Arquero, artista de circo en su origen y superhéroe.',
     origin: 'Humano sin poderes innatos; su principal ventaja es la habilidad adquirida y el uso experto del arco.',
     summary:
@@ -561,7 +561,7 @@ export const characters = [
     name: 'Spider-Man',
     realName: 'Peter Parker',
     aliases: ['Hombre Araña', 'Spidey'],
-    image: '/images/spider-man.jpg',
+    image: `${import.meta.env.BASE_URL}images/spider-man.jpg`,
     occupation: 'Héroe de Nueva York; estudiante, fotógrafo o científico según la etapa.',
     origin: 'Peter adquiere habilidades arácnidas tras la mordedura de una araña; los detalles cambian en algunas adaptaciones.',
     summary:
@@ -643,7 +643,7 @@ export const characters = [
     name: 'Venom',
     realName: 'Eddie Brock (huésped más asociado al personaje)',
     aliases: ['Protector Letal (epíteto ligado a una etapa)'],
-    image: '/images/venom.jpg',
+    image: `${import.meta.env.BASE_URL}images/venom.jpg`,
     occupation: 'Eddie Brock ha trabajado como periodista; sus ocupaciones y el papel de Venom cambian por versión.',
     origin: 'Simbionte extraterrestre unido a distintos huéspedes; Eddie Brock es el más conocido, pero no el único.',
     summary:

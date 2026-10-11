@@ -28,7 +28,7 @@ function Catalog({ onSelect, onHome }) {
       <main className="catalog-page" id="inicio">
         <section className="hero-banner" aria-label="Presentación de Marvel Multiverse">
           <FallbackImage
-            src="/images/banner-marvel.jpg"
+            src={`${import.meta.env.BASE_URL}images/banner-marvel.jpg`}
             alt="Héroes de Marvel reunidos"
             className="hero-banner__image"
           />
